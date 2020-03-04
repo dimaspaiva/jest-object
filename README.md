@@ -40,7 +40,7 @@ The first function get the `check` returns and repsonse if that goes wrong or ha
 }
 ```
 
-## To undestando more about the features used
+## To undestand more about the features used access
 
 [Link to Andrei Pfeiffer tutorial](https://medium.com/@andrei.pfeiffer/jest-matching-objects-in-array-50fe2f4d6b98)
 
