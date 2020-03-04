@@ -204,13 +204,13 @@ describe('Object confirm', () => {
   });
 });
 
-const check = (object1, object2) => {
-  if (Object.keys(object1).length !== Object.keys(object2).length) {
+const check = (compareObject, objectPattern) => {
+  if (Object.keys(compareObject).length !== Object.keys(objectPattern).length) {
     return { pass: false, type: 'length' };
   }
 
-  const listKeys = Object.keys(object1).map((key) => {
-    if (Object.keys(object2).includes(key)) {
+  const listKeys = Object.keys(compareObject).map((key) => {
+    if (Object.keys(objectPattern).includes(key)) {
       return true;
     }
     return false;
